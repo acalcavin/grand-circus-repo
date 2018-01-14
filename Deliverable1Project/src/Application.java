@@ -12,6 +12,7 @@ public class Application {
 		String str1 = input.next();
 		String str2 = input.next();
 		
+		// validate numbers have same # digits before checking anything else
 		if (str1.length() != str2.length()) {
 			System.out.println("Numbers must be the same length.");
 			return;
